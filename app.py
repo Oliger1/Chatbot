@@ -32,7 +32,7 @@ def login():
     else:
         print("Invalid username or password")
 
-openai.api_key = "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"
+openai.api_key = ""
 
 def register():
     new_username = new_username_entry.get()
